@@ -1,8 +1,4 @@
-var titulo = document.getElementById('titulo');
-var inputNombre = document.getElementById('nombre');
-var cambiabtn = document.getElementById('cambia');
 
-console.log( titulo , nombre , cambia);
 
 cambiabtn.addEventListener('click' , function() {
     var miNombre = inputNombre.value;
