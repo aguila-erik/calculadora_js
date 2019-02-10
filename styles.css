@@ -1,7 +1,7 @@
 body {
     width: 500px;
     margin: 4% auto;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Major Mono Display', monospace;
     letter-spacing: 5px;
     font-size: 1.8rem;
     -moz-user-select: none;
@@ -9,6 +9,10 @@ body {
     -ms-user-select: none;
   }
   
+  h1, h6 {
+      font-family: 'Major Mono Display', monospace;
+    }
+
   .calculator {
     padding: 20px;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -18,7 +22,7 @@ body {
   
   .input {
     border: 1px solid #ddd;
-    border-radius: 1px;
+    border-radius: 10px;
     height: 60px;
     padding-right: 15px;
     padding-top: 10px;
@@ -42,7 +46,7 @@ body {
   .operators div {
     display: inline-block;
     border: 1px solid #bbb;
-    border-radius: 1px;
+    border-radius: 10px;
     width: 80px;
     text-align: center;
     padding: 10px;
@@ -70,7 +74,7 @@ body {
   .numbers div {
     display: inline-block;
     border: 1px solid #ddd;
-    border-radius: 1px;
+    border-radius: 10px;
     width: 80px;
     text-align: center;
     padding: 10px;
@@ -94,7 +98,7 @@ body {
   div.equal {
     display: inline-block;
     border: 1px solid #3079ED;
-    border-radius: 1px;
+    border-radius: 10px;
     width: 17%;
     text-align: center;
     padding: 127px 10px;
