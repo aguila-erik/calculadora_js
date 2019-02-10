@@ -1,10 +1,4 @@
 
-
-cambiabtn.addEventListener('click' , function() {
-    var miNombre = inputNombre.value;
-    titulo.innerHTML = miNombre;
-})
-
 var input = document.getElementById('input');
 var btn1 = document.getElementById('btn1');
 var btn2 = document.getElementById('btn2');
